@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import './App.css';
-
-import image from './components/Images/image.png';
+import image from '../src/components/Images/Image.png';
 
 function App() {
     const [file, setFile] = useState(null);
