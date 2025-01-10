@@ -19,8 +19,8 @@ function App() {
         window.open('https://team-echo-levelsupermind.streamlit.app/', '_blank');
     };
 
-    const handleAnalysisClick = () => {
-        window.open('https://team-echo-levelsupermind.streamlit.app/', '_blank');
+    const handleRepositoryClick = () => {
+        window.open('https://github.com/SudhanvaNKishore/levelsupermind', '_blank');
     };
 
     return (
@@ -29,7 +29,7 @@ function App() {
                 <div className="nav-section">Social Media Analysis</div>
                 <div className="nav-buttons">
                     <button className="nav-button" onClick={handleChatBotClick}>ChatBot</button>
-                    <button className="nav-button" onClick={handleAnalysisClick}>Analysis</button>
+                    <button className="nav-button" onClick={handleRepositoryClick}>Repository</button>
                 </div>
             </nav>
             <div className="content">
